@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- data yang bisa disimpan pada head : title style script meta link -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Internaldo's Blog</title>
+</head>
+<body bgcolor="lightblue">
+    <!-- data yang bisa disimpan didalam bod : (h1 - h6), p, (br, hr, em, strong dkk), img, hyperlink (a), list bullet and numbering(ul, ol, dl, dt, dd)  -->
+    <!-- table : table, thead, tbody dkk -->
+    <!-- form : form, input, select, button dkk -->
+    <!-- script : script  -->
+    <!-- object : object  -->
+    <!-- grouping : div, span -->
+    
+    <form action="index.html">
+        <table border="3">
+            <tr>
+                <td><label for="username">Username</label></td>
+                <td><input type="text" name="" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="" id="password"></td>
+            </tr>
+            <tr>
+                <td colspan="2"><label for="pria">Pria</label>
+                    <input type="radio" id="pria" name="jenisKelamin">
+                    <label for="wanita">Wanita</label>
+                    <input type="radio" id="wanita" name="jenisKelamin">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" id="meyanyi"><label for="meyanyi">meyanyi</label>
+                    <input type="checkbox" id="olahraga"><label for="olahraga">olahraga</label>
+                    <input type="checkbox" id="coding"><label for="coding">coding</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><textarea name="" id="" cols="30" rows="5"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><select name="" id="">
+                    <option value="">opsi 1</option>
+                    <option value="">opsi 2</option>
+                    <option value="">opsi 3</option>
+                </select></td>
+            </tr>
+            <tr>
+                <td colspan="2"><button type="submit">Kirim</button>
+                </td>
+                
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <p>Hello World!</p>
+    <br>
+    <p><b>Selamat datang</b><i> di kuliah </i><u>pemrograman web</u></p>
+    <dl>
+        <dt><b><a href="https://www.w3schools.com/html/" target="_blank">HTML</a></b></dt>
+        <dd>Hyper Text MarkUp leanguage</dd>
+    </dl>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit voluptate, dolores exercitationem suscipit saepe autem aspernatur ipsa reprehenderit magni. Cupiditate, quo explicabo corrupti quaerat et at architecto inventore ducimus dolorem?</p>
+    <a href="https://i1.sndcdn.com/avatars-000101458562-4f3kpz-t500x500.jpg" target="_blank"><img src="https://i1.sndcdn.com/avatars-000101458562-4f3kpz-t500x500.jpg" title="foto Ahmad Internaldo dan kawan kawan" width="25%"></a>
+    <table border="2"  cellpadding="10" cellspacing="5">
+        <thead>
+            <tr>
+                <th>CHECK,</th>
+                <th colspan="4">CHECK,</th>
+                <!-- <th>CHECK,</th>
+                <th>CHECK,</th>
+                <th>CHECK,</th> -->
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="2">1</th>
+                <td>TEST</td>
+                <td>TEST</td>
+                <td>TEST</td>
+                <td>TEST</td>
+            </tr>
+            <tr>
+                <!-- <th>2</th> -->
+                <td>TEST</td>
+                <td>TEST</td>
+                <td>TEST</td>
+                <td>TEST</td>
+            </tr>
+        </tbody>
+    </table>
+    <table border="2" cellpadding="5" cellspacing="5">
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td colspan="2" rowspan="2"></td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+            <td>1</td>
+        </tr>
+    </tbody>
+    </table>
+</body>
+</html>
